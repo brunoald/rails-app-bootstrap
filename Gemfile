@@ -9,7 +9,7 @@ gem "friendly_id"           , "~> 4.0.4"
 gem "devise"                , "~> 2.0.4"
 gem "slim"                  , "~> 1.2.0"
 gem "kaminari"              , "~> 0.13.0"
-gem "omniauth"              , "~> 1.0.3"
+gem "omniauth"              , "~> 1.1.0"
 gem "omniauth-facebook"     , "~> 1.2.0"
 gem "omniauth-twitter"      , "~> 0.0.9"
 gem "omniauth-openid"       , "~> 1.0.1"
@@ -27,8 +27,8 @@ group :development, :test do
   gem "pry"                 , "~> 0.9", require: false
   gem "capistrano"          , "~> 2.9"
   gem "rspec-rails"         , "~> 2.6.1"
-  gem "faker"               , "~> 0.9.5"
-  gem "factory_girl_rails"  , "~> 1.2"
+  gem "faker"               , "~> 1.0.1"
+  gem "factory_girl_rails"  , "~> 3.1.0"
   gem "rails-dev-tweaks"    , "~> 0.6"
 end
 
@@ -36,7 +36,7 @@ group :test do
   gem "turn"                , require: false
   gem "spork"               , "~> 0.9.0"
   gem "database_cleaner"    , "~> 0.7.2"
-  gem "shoulda-matchers"    , "~> 1.0.0"
+  gem "shoulda-matchers"    , "~> 1.1.0"
   gem "guard-rspec"         , "~> 0.7.0"
   gem "guard-spork"         , "~> 0.6.0"
   gem "guard-bundler"       , "~> 0.1.3"
